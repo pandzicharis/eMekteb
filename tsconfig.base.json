@@ -1,0 +1,15 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@app/*": ["apps/app/src/*"],
+      "@api/*": ["apps/api/src/*"],
+      "@e-mekteb/types": ["libs/types/src/index.ts"],
+      "@lib/*": ["libs/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
